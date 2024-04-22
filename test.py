@@ -1,3 +1,4 @@
+
 from tkinter import *
 from tkinter import ttk
 
@@ -5,7 +6,7 @@ from tkinter import ttk
 
 root = Tk()
 
-canvas = Canvas(parent width=500, height=400)
+canvas = Canvas( width=500, height=400)
 
 canvas.create_line(10,5, 200, 50)
 
