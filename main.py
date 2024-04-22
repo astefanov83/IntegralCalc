@@ -1,3 +1,4 @@
+from test.py import grapher
 
 class Integral:
 
@@ -38,7 +39,7 @@ class Integral:
         return tot
 
     def print_graph():
-        ...
+        
 
 def main():
     func, lo, hi = Integral.init_func()
