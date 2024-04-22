@@ -1,4 +1,5 @@
-from test.py import grapher
+from test import grapher
+from test import input_page
 
 class Integral:
 
@@ -38,15 +39,14 @@ class Integral:
 
         return tot
 
-    def print_graph():
         
 
 def main():
-    func, lo, hi = Integral.init_func()
+    func, lo, hi = input_page()
 
     print(Integral.take_integral(int(lo), int(hi), func))
 
-    
+    grapher(func)
 
 if __name__ == '__main__':
     main()
